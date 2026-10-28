@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>Autoyt</title>
+  <meta name="description" content="Autoyt is a personal automation tool used only by its owner to upload their own short videos.">
+  <style>
+    :root { --fg: #1d1d1f; --muted: #5f6368; --bg: #ffffff; --card: #f5f6f8; --link: #0b57d0; --line: #e3e5e8; }
+    @media (prefers-color-scheme: dark) {
+      :root { --fg: #e8eaed; --muted: #a8adb3; --bg: #16181b; --card: #1f2226; --link: #8ab4f8; --line: #2e3237; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: 32px 16px 48px; }
+    nav { display: flex; flex-wrap: wrap; gap: 16px; padding-bottom: 16px; border-bottom: 1px solid var(--line); margin-bottom: 24px; }
+    nav a { color: var(--link); text-decoration: none; font-weight: 600; }
+    nav a[aria-current="page"] { color: var(--fg); }
+    h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 8px; }
+    h2 { font-size: 1.2rem; margin: 28px 0 8px; }
+    p, li { overflow-wrap: anywhere; }
+    a { color: var(--link); }
+    .lead { color: var(--muted); font-size: 1.05rem; margin-top: 0; }
+    .card { background: var(--card); border-radius: 12px; padding: 16px 20px; margin: 20px 0; }
+    footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+<main>
+  <nav aria-label="Site">
+    <a href="./" aria-current="page">Home</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+  </nav>
+
+  <h1>Autoyt</h1>
+  <p class="lead">A personal automation tool for publishing short videos.</p>
+
+  <div class="card">
+    <p><strong>Autoyt is used only by its owner.</strong> It uploads the owner's own short videos to the
+    owner's own YouTube channel, Facebook Page and Instagram account. It is not a public service: there
+    are no user sign-ups, and no other person's account or data is ever accessed.</p>
+  </div>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Creates short vertical videos from the owner's own content.</li>
+    <li>Uploads them to the owner's YouTube channel, Facebook Page and Instagram account, using
+      permissions the owner granted to the tool.</li>
+    <li>Nothing else: it does not read, analyse or collect anyone's personal data.</li>
+  </ul>
+
+  <h2>Policies</h2>
+  <ul>
+    <li><a href="privacy.html">Privacy Policy</a></li>
+    <li><a href="terms.html">Terms of Service</a></li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:autoytigfb@gmail.com">autoytigfb@gmail.com</a></p>
+
+  <footer>Autoyt is a personal project and is not affiliated with or endorsed by Google, YouTube or Meta.</footer>
+</main>
+</body>
+</html>
